@@ -1,0 +1,122 @@
+@font-face {
+    font-family: beyno;
+    src: url(../assets/fonts/Font/BEYNO.ttf);
+}
+
+@font-face {
+    font-family: "wakanda4ever";
+    src: url(../assets/fonts/Font/WakandaForever-Regular.ttf);
+}
+
+@font-face {
+    font-family: Cantarell;
+    font-weight: 100;
+    src: url(../assets/fonts/Font/Cantarell-Regular.ttf);
+}
+
+#contenair{
+    background: linear-gradient(90deg, #0D121B,  #253451 );
+}
+
+#section1{
+    background-image: url(../assets/images/Wakanda/Pantherwakanda.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#section1 #contenue{
+    width: 40%;
+    padding: 200px 150px;
+}
+
+
+#section1 #contenue h3{
+    font-size: 50px;
+}
+
+#section1 #contenue h2{
+    font-family: wakanda4ever;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: -20px;
+    margin-bottom: 40px;
+    color: #9e91b7;
+    letter-spacing: 6px;
+}
+
+#section1 #contenue p{
+    font-size: small;
+    font-family: Cantarell;
+    font-weight: 10;
+}
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+#section2{
+    display: flex;
+    background-image: url(../assets/images/Wakanda/Pantherwakanda2.png);
+    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#section2 h3{
+    font-size: 20px;
+}
+
+#section2 article{
+    width: 50%;
+    padding: 50px 30px 10px 75px;
+}
+
+#section3 article{
+    width: 50%;
+    padding: 10px 30px 100px 75px;
+}
+
+
+
+#youtube{
+    aspect-ratio: 16/9;
+    height: 300px;
+    background-color: #3d2da6;
+    text-align: center;
+    margin-top: 75px;
+}
+
+#section2 p{
+    text-align: justify;
+    font-size: small;
+}
+
+#section3{
+    display: flex;
+}
+
+#section3 p{
+    text-align: justify;
+    font-size: small;
+}
+
+#section3 h3{
+    font-size: 20px;
+}
+
+#waka_article2 #waka_image{
+    margin-top: 50px;
+}
+
+
+@media (max-width: 900px) {
+    #section2{
+        display: block;
+    }
+
+    #section3{
+        display: block;
+    }
+
+}
