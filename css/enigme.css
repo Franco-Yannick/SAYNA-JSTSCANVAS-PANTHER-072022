@@ -64,7 +64,7 @@
 
 #img_ligne {
     position: absolute;
-    top: 83%;
+    top: 90%;
     margin-left: 220px;
 }
 
@@ -81,15 +81,37 @@
 
 #section_principale h2 {
     font-family: beyno;
-    font-weight: 32px;
+    font-size: 14px;
+    width: 400px;
+    color: #9e91b7;
+    text-decoration: underline;
 }
-h2{
+
+#section_principale > #cit{
     font-family: "wakanda4ever";
-    width: 800px;
+    width: 400px;
     font-size: large;
     color: #9e91b7;
-    font-weight: 100;
+    font-size: 14px;
     letter-spacing: 12px;
+    text-align: justify;
+    text-decoration: none;
+}
+
+#section_principale >#binaire {
+    width: 400px;
+    font-size: large;
+    color: #9e91b7;
+    font-size: 7px;
+    letter-spacing: 3px;
+    text-align: justify;
+}
+
+#section_principale p {
+    font-family: Cantarell;
+    font-size: 10px;
+    color: #F2CEF2;
+    width: 400px;
 }
 
 h4{
@@ -147,11 +169,15 @@ h4{
 
 #savoir p{
     position: relative;
-    top: 130px;
-    left: 100px;
+    top: 90px;
+    left: 75px;
     font-size: x-small;
     text-align: left;
-    width: 300px;
+    width: 250px;
+    font-size: 5px;
+}
+#savoir span {
+    font-family: "wakanda4ever";
 }
 
 @media (max-width: 700px) {
@@ -198,3 +224,38 @@ h4{
     }    
     
 }
+/*
+.socios {
+    margin-left: 2em;
+    padding-top: 1em;
+    position: relative;
+    top: calc(var(--hauteurBar) - 11.4em);
+    z-index: 500;
+    display: block;
+}
+.socios .socios-item {
+    margin-block: 1em;
+}
+
+.socios .socios-item img:hover{
+    transform: rotateZ(360deg);
+    transition: 1s;
+}
+
+.bar {
+    width: 3px;
+    background-color: #f2cef2;
+    height: var(--hauteurBar);
+    position: absolute;
+    left: 1.2em;
+}
+
+
+.bar::after {
+    content: "";
+    width: 3px;
+    background-color: #f2cef2;
+    height: calc(var(--hauteurBar) - 10em);
+    position: absolute;
+    left: 1.5em;
+}*/
